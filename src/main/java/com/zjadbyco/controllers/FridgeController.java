@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin({"http://localhost:3000", "http://127.0.0.1:3000"})
+@CrossOrigin
 @RequestMapping("/fridge")
 public class FridgeController {
     private final FridgeService fridgeService;

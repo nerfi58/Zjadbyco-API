@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/food")
-@CrossOrigin({"http://localhost:3000", "http://127.0.0.1:3000"})
+@CrossOrigin
 public class FoodController {
     private final FoodService foodService;
     private final DishService dishService;
